@@ -141,7 +141,7 @@ int main(int argc, char **argv)
 ```bash
 ros2 run my_first_package my_turtle_controller
 ```
-> 亀がぐるぐる円を描くように動いてくれました。
+> 亀がぐるぐる円を描くように動いてくれました。  
 > ![turtlesim_controller_mypackage](./images/turtlesim_controller_mypackage.png)
 
 # おわりに
