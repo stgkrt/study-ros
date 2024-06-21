@@ -2,8 +2,8 @@
 こちらの記事で勉強させていただきます。
 
 # Chapter
-- [環境構築](./chapter1.md)
-- [Hello World](./chapter2.md)
+- [環境構築](./doc/chapter1.md)
+- [Hello World](./doc//chapter2.md)
 
 # 使わせていただいたwebsite
 - [環境構築](https://zenn.dev/uchidaryo/articles/ros2-programming-1)
