@@ -17,3 +17,4 @@ RUN echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc
 # 2章 install packages
 RUN apt install python3-argcomplete -y
 RUN apt install python3-colcon-common-extensions
+RUN apt install x11-apps

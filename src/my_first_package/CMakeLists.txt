@@ -21,6 +21,8 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(std_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
 
 add_executable(hello src/hello.cpp)
 ament_target_dependencies(hello rclcpp)
@@ -30,14 +32,16 @@ add_executable(hello_loop src/hello_loop.cpp)
 ament_target_dependencies(hello_loop rclcpp)
 install(TARGETS hello_loop DESTINATION lib/${PROJECT_NAME})
 
-find_package(std_msgs REQUIRED)
-
 set(NODES my_publisher;my_subscriber)
 foreach(target IN LISTS NODES)
   add_executable(${target} src/${target}.cpp)
   ament_target_dependencies(${target} rclcpp std_msgs)
   install(TARGETS ${target} DESTINATION lib/${PROJECT_NAME})
 endforeach()
+
+add_executable(my_turtle_controller src/my_turtle_controller.cpp)
+ament_target_dependencies(my_turtle_controller rclcpp geometry_msgs)
+install(TARGETS my_turtle_controller DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

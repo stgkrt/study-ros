@@ -7,6 +7,7 @@
 - [振り返り](./doc/chapter3.md)
 - [メインループ](./doc/chapter4.md)
 - [pub/sub](./doc/chapter5.md)
+- [亀を制御する](./doc/chapter6.md)
 
 # 使わせていただいたwebsite
 - [環境構築](https://zenn.dev/uchidaryo/articles/ros2-programming-1)
