@@ -26,6 +26,10 @@ add_executable(hello src/hello.cpp)
 ament_target_dependencies(hello rclcpp)
 install(TARGETS hello DESTINATION lib/${PROJECT_NAME})
 
+add_executable(hello_loop src/hello_loop.cpp)
+ament_target_dependencies(hello_loop rclcpp)
+install(TARGETS hello_loop DESTINATION lib/${PROJECT_NAME})
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
