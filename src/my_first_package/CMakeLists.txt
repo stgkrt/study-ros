@@ -30,6 +30,15 @@ add_executable(hello_loop src/hello_loop.cpp)
 ament_target_dependencies(hello_loop rclcpp)
 install(TARGETS hello_loop DESTINATION lib/${PROJECT_NAME})
 
+find_package(std_msgs REQUIRED)
+
+set(NODES my_publisher;my_subscriber)
+foreach(target IN LISTS NODES)
+  add_executable(${target} src/${target}.cpp)
+  ament_target_dependencies(${target} rclcpp std_msgs)
+  install(TARGETS ${target} DESTINATION lib/${PROJECT_NAME})
+endforeach()
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
