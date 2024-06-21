@@ -1,0 +1,11 @@
+{
+    "name": "study-ros",
+    "dockerFile": "DockerFile",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools-extension-pack"
+            ]
+        }
+    }
+}
