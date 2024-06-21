@@ -17,6 +17,7 @@ ROSの動作を理解する上でNodeの理解が重要になります。公式�
 
 ROSでは複数のノードを協調させることでアプリケーションを実現します。
 公式でもServiceやTopicを経由して複数のノードが協調している様子が見て取れます。
+![Understanding ROS2 nodes](./images/Nodes-TopicandService.gif)
 
 ## トピックとメッセージ
 あるノードが別のノードへデータを送るためのパスをトピックと呼び、トピックを介して送られるデータをメッセージと呼びます。
@@ -26,6 +27,7 @@ ROSでは複数のノードを協調させることでアプリケーション�
 - メッセージの受けて：サブスクライバー
 
 このような送受信の形式を「パブリッシュ・スブスクライブモデル」、略して「パブサブモデル」と呼びます。
+![RO2 publish subscribe model](./images/Topic-MultiplePublisherandMultipleSubscriber.gif)
 
 
 ## プログラミングスタイル
