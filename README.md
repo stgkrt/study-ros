@@ -1,7 +1,7 @@
 # ROS勉強用レポジトリ
 こちらの記事で勉強させていただきます。
 
-# Chapter
+# Chapter C++
 - [環境構築](./doc/chapter1.md)
 - [Hello World](./doc/chapter2.md)
 - [振り返り](./doc/chapter3.md)
@@ -25,4 +25,5 @@
 - [Gazebo](https://zenn.dev/uchidaryo/articles/ros2-programming-9)
 
  
-
+# Chapter python
+- 2. [Hello world](./doc/py_chapter2.md)
