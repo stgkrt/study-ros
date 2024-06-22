@@ -10,6 +10,7 @@
 - [亀を制御する](./doc/chapter6.md)
 - [振り返り/Launch](./doc/chapter7.md)
 - [Node class](./doc/chapter8.md)
+- [Gazebo](./doc/chapter9.md)
 
 
 # 使わせていただいたwebsite
