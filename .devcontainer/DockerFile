@@ -18,3 +18,7 @@ RUN echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc
 RUN apt install python3-argcomplete -y
 RUN apt install python3-colcon-common-extensions
 RUN apt install x11-apps
+
+# 9章 install packages
+RUN apt install ros-foxy-gazebo-ros-pkgs -y
+RUN apt install ros-foxy-turtlebot3 ros-foxy-turtlebot3-msgs -y
