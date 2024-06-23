@@ -9,6 +9,8 @@ setup(
     py_modules=[
         "my_python_pkg.hello",
         "my_python_pkg.hello_loop",
+        "my_python_pkg.my_publisher",
+        "my_python_pkg.my_subscriber",
     ],
     data_files=[
         ('share/ament_index/resource_index/packages',
@@ -26,6 +28,8 @@ setup(
         'console_scripts': [
             'hello=my_python_pkg.hello:main',
             'hello_loop=my_python_pkg.hello_loop:main',
+            'my_publisher=my_python_pkg.my_publisher:main',
+            'my_subscriber=my_python_pkg.my_subscriber:main',
         ],
     },
 )
