@@ -12,6 +12,8 @@ setup(
         "my_python_pkg.my_publisher",
         "my_python_pkg.my_subscriber",
         "my_python_pkg.my_turtle_controller",
+        "my_python_pkg.simple_publisher",
+        "my_python_pkg.simple_subscriber",
     ],
     data_files=[
         ('share/ament_index/resource_index/packages',
@@ -31,7 +33,10 @@ setup(
             'hello_loop=my_python_pkg.hello_loop:main',
             'my_publisher=my_python_pkg.my_publisher:main',
             'my_subscriber=my_python_pkg.my_subscriber:main',
-            "my_turtle_controller=my_python_pkg.my_turtle_controller:main"
+            "my_turtle_controller=my_python_pkg.my_turtle_controller:main",
+            'simple_publisher=my_python_pkg.simple_publisher:main',
+            'simple_subscriber=my_python_pkg.simple_subscriber:main',
+            
         ],
     },
 )

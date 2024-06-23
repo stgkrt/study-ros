@@ -33,3 +33,4 @@ pythonの[公式doc](https://docs.ros2.org/foxy/api/rclpy/api/init_shutdown.html
 - [pub/sub](./doc/py_chapter5.md)
 - [亀を制御する](./doc/py_chapter6.md)
 - [Launch](./doc/py_chapter7.md)
+- [Node class](./doc/py_chapter8.md)
