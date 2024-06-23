@@ -1,5 +1,6 @@
 # ROS勉強用レポジトリ
-こちらの記事で勉強させていただきます。
+こちらの記事で勉強させていただきます。  
+ROS2公式の[使用例レポジトリ](https://github.com/ros2/examples/tree/rolling/rclpy/topics/pointcloud_publisher)
 
 # Chapter C++
 - [環境構築](./doc/chapter1.md)
@@ -26,4 +27,6 @@
 
  
 # Chapter python
+pythonの[公式doc](https://docs.ros2.org/foxy/api/rclpy/api/init_shutdown.html)
 - [Hello world](./doc/py_chapter2.md)
+- [メインループ](./doc/py_chapter3.md)

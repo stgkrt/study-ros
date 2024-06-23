@@ -7,7 +7,8 @@ setup(
     version='0.0.0',
     packages=[package_name],
     py_modules=[
-        "my_python_pkg.hello"
+        "my_python_pkg.hello",
+        "my_python_pkg.hello_loop",
     ],
     data_files=[
         ('share/ament_index/resource_index/packages',
@@ -24,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
             'hello=my_python_pkg.hello:main',
+            'hello_loop=my_python_pkg.hello_loop:main',
         ],
     },
 )
