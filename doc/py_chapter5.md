@@ -2,7 +2,7 @@
 ここでは、chapter5のpub/subをやってみます。
 
 # パブリッシャー
-それでは次のようにpublisherのプログラムを書いてみます。  
+それでは次のようにpublisherのプログラムを書いてみます。`/workspaces/study-ros/python_ws/my_python_pkg/my_python_pkg/my_publisher.py`  
 公式のexampleにある[簡単なpublisher](https://github.com/ros2/examples/blob/rolling/rclpy/topics/minimal_publisher/examples_rclpy_minimal_publisher/publisher_local_function.py)の例を参考に書いてみました。
 
 ```python
@@ -42,7 +42,7 @@ if __name__=="__main__":
 ```
 
 # サブスクライバー
-それではサブスクライバーのプログラムを書いていきます。  
+それではサブスクライバーのプログラムを書いていきます。`/workspaces/study-ros/python_ws/my_python_pkg/my_python_pkg/my_subscriber.py`  
 サブスクライバーも[公式の例](https://github.com/ros2/examples/blob/rolling/rclpy/topics/minimal_subscriber/examples_rclpy_minimal_subscriber/subscriber_lambda.py)を参考に書いてみました。  
 
 
